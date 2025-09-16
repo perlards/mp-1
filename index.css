@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+header, footer{
+    background-color: #fff1f1;
+}
+main p{
+    font-size: calc(10px + 2vw);
+    color: black;
+    margin-bottom:100px ;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px;
+}
+nav{
+    background-color: #E9B3FB;
+    width: 30%
+}
+nav ul{
+    /*use deeloper tool to look for the weird spacing issue*/
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+}
+nav li{
+    /*border: 3px solid black;*/
+
+}
+nav a{
+    text-decoration: none;
+    font-size: calc(2px + 2vw); /* always for font size*/
+}
+main{
+    background-color: #fff1f1;
+    height: 100vh;
+    text-align: center;
+    width: 70%
+
+}
+main img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+/*bellow this line is my mobile design*/
+/*max-width because were going desktop to phone*/
+@media screen and (max-width: 1000px){
+    #container{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    main{
+        width: 100% /* changes the width accordingly*/
+    }
+
+}
