@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f24e1b1b-d905-4d84-9021-24082d7c74c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/experience/experience.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hobbies/hobbies.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/references/references.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/calc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/education/education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobbies/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies/hobbies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/references/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/references/references.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +81,7 @@
       <updated>1757626204300</updated>
       <workItem from="1757626205634" duration="3166000" />
       <workItem from="1757694405141" duration="7150000" />
-      <workItem from="1757996452519" duration="26322000" />
+      <workItem from="1757996452519" duration="27858000" />
     </task>
     <servers />
   </component>
