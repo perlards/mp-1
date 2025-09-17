@@ -1,7 +1,9 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-    background-color: #fff1f1; /*is it ok to have it like this*/
+}
+body {
+    background-color: #fff1f1;
 }
 #page-wrapper{
     width: 80vw;
@@ -20,6 +22,21 @@ header, footer{
     margin-top: 20px;
     text-align: left;
 }
+
+main h3{
+    font-size: calc(10px + 2vw);
+    color: #6F00FF;
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+main h4{
+    font-size: calc(8px + 2vw);
+    text-align: left;
+    margin-left: 30px;
+    color: #3B0270;
+
+}
 main p{
     font-size: calc(10px + 2vw);
     color: #3B0270;
@@ -28,11 +45,19 @@ main p{
     padding-left:50px;
     padding-right:50px;
 }
-nav{
-     background-color: #E9B3FB;
-     width: 30%;
+main ul{
+    font-size: calc(5px + 2vw);
+    color: #3B0270;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-right: 50px;
 
- }
+}
+nav{
+    background-color: #E9B3FB;
+    width: 30%;
+}
 nav ul{
     /*use developer tool to look for the weird spacing issue*/
     padding-left: 0;
@@ -59,23 +84,14 @@ nav a{
 }
 main{
     background-color: #fff1f1;
-    height: 100vh;
     text-align: center;
     width: 70%
-
-}
-main img{
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
 
 }
 /*bellow this line is my mobile design*/
 /*max-width because were going desktop to phone*/
 @media screen and (max-width: 750px){
-    #container{
+    #container {
         flex-direction: column;
     }
     nav{
@@ -86,7 +102,10 @@ main img{
         justify-content: space-evenly;
     }
     main{
-        width: 100% /* changes the width accordingly*/
+        width: 100%
+    }
+    header{
+        text-align: center;
     }
 
 }

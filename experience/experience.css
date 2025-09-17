@@ -1,7 +1,10 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: #fff1f1; /*is it ok to have it like this*/
+}
+
+body{
+    background-color: #fff1f1;
 }
 #page-wrapper{
     width: 80vw;
@@ -12,38 +15,52 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    gap: 20px;
 }
 header, footer{
-    background-color: #fff1f1;
     font-size: calc(8px + 2vw);
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: left;
 }
-main p{
+
+main h3{
     font-size: calc(10px + 2vw);
+    color: #6F00FF;
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+main h4{
+    font-size: calc(8px + 2vw);
+    text-align: left;
+    margin-left: 30px;
     color: #3B0270;
-    margin-bottom:100px ;
-    text-align: center;
-    padding-left:50px;
-    padding-right:50px;
+
+}
+main ul{
+    font-size: calc(5px + 2vw);
+    color: #3B0270;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-right: 50px;
 }
 nav{
-     background-color: #E9B3FB;
-     width: 30%;
+    background-color: #E9B3FB;
+    width: 30%;
 
- }
+}
 nav ul{
-    /*use developer tool to look for the weird spacing issue*/
     padding-left: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #E9B3FB;
     height: 50%;
     margin: 0 auto;
-    background-color: #E9B3FB;
 
 }
 nav li{
@@ -59,34 +76,31 @@ nav a{
 }
 main{
     background-color: #fff1f1;
-    height: 100vh;
     text-align: center;
-    width: 70%
-
-}
-main img{
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
+    width: 70%;
+    padding-bottom: 20px;
 
 }
 /*bellow this line is my mobile design*/
 /*max-width because were going desktop to phone*/
-@media screen and (max-width: 750px){
-    #container{
+@media screen and (max-width: 750px) {
+    #container {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         width: 100%
     }
-    nav ul{
+
+    nav ul {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    main{
-        width: 100% /* changes the width accordingly*/
-    }
 
+    main {
+        width: 100%
+    }
+    header{
+        text-align: center;
+    }
 }

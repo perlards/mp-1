@@ -2,26 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title> Projects | Perla's Resume</title>
+    <link rel="stylesheet" href="projects.css" type="text/css">
 </head>
     <body>
-        <header>
-            <h1>Projects</h1>
-            <p> Here are some of my projects! </p>
-        </header>
-        <main>
-            <h3>Personal Website</h3>
-            <ul>
-                <li>My website is my personal space to showcase my projects, skills, and experiences as an aspiring software engineer working towards my computer science degree. Built using React, my website utilizes JSX to create dynamic, interactive pages while leveraging mutiple programming languages such as, HTML, CSS, and JavaScript. Developing this site helped me deepen my understanding of modern web development while challenging me to continuously improve my coding skills. This site will keep evolving as I take on new challenges and grow my skills.</li>
-            </ul>
-            <h3>Calculator</h3>
-                <ul>
-                    <label for="one">Give me a number:</label>
-                    <input id="one">
-                    <label for="two">Give me a number:</label>
-                    <input id="two">
-                    <button onclick="onAdd()">Add</button>
-                </ul>
-        </main>
+    <div id="page-wrapper">
+            <header>
+                <h1>Projects</h1>
+                <p> Here are some of my projects! </p>
+            </header>
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../education/education.html">Education</a></li>
+                        <li><a href="../experience/experience.html">Experience</a></li>
+                        <li><a href="../projects/projects.html">Projects</a></li>
+                        <li><a href="../references/references.html">References</a></li>
+                        <li><a href="../hobbies/hobbies.html">Hobbies</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <h3>Personal Website</h3>
+                    <ul>
+                        <li>My website is my personal space to showcase my projects, skills, and experiences as an aspiring software engineer working towards my computer science degree. Built using React, my website utilizes JSX to create dynamic, interactive pages while leveraging mutiple programming languages such as, HTML, CSS, and JavaScript. Developing this site helped me deepen my understanding of modern web development while challenging me to continuously improve my coding skills. This site will keep evolving as I take on new challenges and grow my skills.</li>
+                    </ul>
+                    <h3>Calculator</h3>
+                    <div id="calculator">
+
+                            <ul>
+                                <li> <label for="one">Give me a number:</label>
+                                    <input id="one">
+                                </li>
+                                <li><label for="two">Give me a number:</label>
+                                    <input id="two">
+                                </li>
+                            </ul>
+                                <div id ="calc-buttons" >
+                                    <button onclick="doAdd()">Add</button>
+                                    <button onclick="doSubtract()">Subtract</button>
+                                    <button onclick="doMult()">Multiply</button>
+                                    <button onclick="doDivide()">Divide</button>
+                                </div>
+                                    <button onclick="doClear()">Clear</button>
+                                <p>Result:</p>
+                                <h3 id="output"></h3>
+
+                    </div>
+                </main>
+            </div>
+            <footer>
+                <p> All rights reserved to Perla Ruiz del Solar &#169; <a href="">Credits</a></p>
+            </footer>
+        </div>
+    <script src="../calc.js"></script>
     </body>
 </html>

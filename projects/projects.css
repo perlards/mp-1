@@ -1,14 +1,16 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: #fff1f1; /*is it ok to have it like this*/
 }
-#page-wrapper{
+body{
+    background-color: #fff1f1;
+}
+#page-wrapper {
     width: 80vw;
     margin: 0 auto;
     text-align: center;
 }
-#container{
+#container {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -20,6 +22,14 @@ header, footer{
     margin-top: 20px;
     text-align: left;
 }
+
+main h3{
+    font-size: calc(10px + 2vw);
+    color: #6F00FF;
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 20px;
+}
 main p{
     font-size: calc(10px + 2vw);
     color: #3B0270;
@@ -28,11 +38,18 @@ main p{
     padding-left:50px;
     padding-right:50px;
 }
+main ul{
+    font-size: calc(5px + 2vw);
+    color: #3B0270;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-right: 50px;
+}
 nav{
-     background-color: #E9B3FB;
-     width: 30%;
-
- }
+    background-color: #E9B3FB;
+    width: 30%;
+}
 nav ul{
     /*use developer tool to look for the weird spacing issue*/
     padding-left: 0;
@@ -59,18 +76,42 @@ nav a{
 }
 main{
     background-color: #fff1f1;
-    height: 100vh;
     text-align: center;
     width: 70%
 
 }
-main img{
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
+#calculator{
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+}
+#calculator h3 {
+    color: #6F00FF;
+    margin-bottom: 10px;
+    font-size: calc(10px + 2vw);
 
+}
+#calculator input {
+    margin: 5px;
+    padding: 5px;
+    font-size: calc(8px + 2vw);
+}
+#calculator button {
+    background-color: #E9B3FB;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: calc(5px + 1.5vw);
+}
+#calculator p {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #3B0270;
+}
+#calculator h3{
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 40px;
 }
 /*bellow this line is my mobile design*/
 /*max-width because were going desktop to phone*/
@@ -88,5 +129,7 @@ main img{
     main{
         width: 100% /* changes the width accordingly*/
     }
-
+    header{
+        text-align: center;
+    }
 }
